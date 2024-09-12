@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://blusignalsystems.com/wp-content/uploads/2016/12/Savin-NY-Website-Background-Web1.jpg");
+    background-attachment: fixed;
+    background-size: 200%;
+    background-position: 0% 80%;
+    font-family: 'Roboto Slab';
+ }
+
+ .navpan{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+}
+.navpan p{
+    margin-left: 20px;
+    font-family: 'Roboto Slab';
+    text-align: center;
+}
+
+.about{
+    position: relative;
+    background: #3f3b3b;
+    top: 50px;
+    right: 30%;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 35%;
+    width: 30%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pic{
+    position: absolute;
+    margin-left: 66%;
+    top: 10%;
+    display: flex;
+    bottom: 300px;
+}
+
+.skills{
+    position: absolute;
+    background: #3f3b3b;
+    top: 92%;
+    left: 65%;
+    padding: 20px;
+    width: 30%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.skills ul{
+    font-size: 40px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.skills li{
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.skills a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.projects{
+    position: absolute;
+    background: #3f3b3b;
+    margin-left: 75px;
+    top: 70%;
+    padding: 20px;
+    width: 30%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.lang{
+    position: absolute;
+    background: #3f3b3b;
+    margin-left: 75px;
+    top: 120%;
+    padding: 20px;
+    width: 30%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.lang ul{
+    font-size: 40px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.lang li{
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
